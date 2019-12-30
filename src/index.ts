@@ -3,6 +3,7 @@ import { ApolloServer } from "apollo-server-express";
 
 import schema from "./schema";
 
+
 const app = express();
 
 const apolloServer = new ApolloServer({
