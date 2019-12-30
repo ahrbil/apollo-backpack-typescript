@@ -1,0 +1,5 @@
+type Article {
+  id: String
+  name: String
+  user: User
+}

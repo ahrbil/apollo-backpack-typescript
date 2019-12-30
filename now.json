@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "name": "apollo-backpack-typescript",
+  "builds": [
+    {
+      "src": "src/index.ts",
+      "use": "@now/node",
+      "config": { "distDir": "build" }
+    }
+  ],
+  "routes": [{ "src": "/graphql", "dest": "src/index.ts" }]
+}
