@@ -1,8 +1,7 @@
 import { makeExecutableSchema } from "graphql-tools";
 import { mergeTypeDefs } from "@graphql-toolkit/schema-merging";
+import { loadSchemaFiles } from "@graphql-toolkit/file-loading";
 import path from "path";
-
-import loadSchemaFiles from "./loadSchemaFiles";
 
 const schema = loadSchemaFiles(path.join(__dirname, "./schemaTypes"));
 
