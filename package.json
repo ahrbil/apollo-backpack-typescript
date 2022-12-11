@@ -16,7 +16,7 @@
     "@types/lodash.merge": "^4.6.6",
     "apollo-server-express": "^2.14.2",
     "backpack-core": "^0.8.4",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "extra-watch-webpack-plugin": "^1.0.3",
     "glob": "^7.1.6",
     "graphql": "^14.5.8",
